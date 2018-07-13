@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://github.com/scottphamlin/kitmarloweproject/blob/master/Marlowe.rnc?raw=true"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="author_fragment_xx">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><!--  The Name of Your Text Goes Here --></title>
+                <respStmt>
+                    <resp>Author<date when-custom="1598"/></resp>
+                    <name><forename><!-- Author's First Name --></forename> <surname><!-- Last Name. --></surname></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name><!--Your Name Goes Here --></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Primary editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    Kristen Bennett and Scott Hamlin
+                </publisher>
+                <date>2018</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                    <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><!-- Info about the source will go here. --></bibl>
+                <bibl>Transcription keyed by students in LC 347A at Stonehill College, under the supervision of Kristen Abbott Bennett and Scott Hamlin. Transcription prepared from a digital surrogate of a microfilm.</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <fw type="header" style="text-align: left;"><fw type="pageNum">14</fw></fw><fw type="header" style="text-align: center;"><hi style="font-style: italic;">The History of</hi></fw><fw type="header" style="text-align: right;"><add rend="handwritten">23</add></fw>
+            <!-- Your text goes here. -->
+            </div>        
+        </body>
+    </text>
+</TEI>

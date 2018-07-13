@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://github.com/scottphamlin/kitmarloweproject/blob/master/Marlowe.rnc?raw=true"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliography Template</title>
+                <!-- Following are sample bibliography encodings -->
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                  </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Kit Marlowe Mini-Archive</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Text</p>
+            </sourceDesc>
+        </fileDesc>
+ 
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listBibl>
+                    <bibl xml:id="bibl_Meres">
+                        <author>Francis Meres</author>
+                        <title>Paladis Tamis: The Wits Treasury</title>
+                        <date>1598</date>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    
+</TEI>

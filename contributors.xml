@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://github.com/scottphamlin/kitmarloweproject/blob/master/Marlowe.rnc?raw=true"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Personography Template</title>
+                <!-- Following are sample personography encodings for historical and fictional personae -->
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Kit Marlowe Mini-Archive</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Text</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <!-- The following encoding is for a contributor -->
+                <listPerson>
+                    <person xml:id="contr_ABALL">
+                        <persName type="contr">
+                            <reg>Abigail Ballou</reg>
+                            <forename>Abigail</forename>
+                            <surname>Ballou</surname>
+                        </persName>
+                        <note>
+                            <p>Student contributor enrolled in <title>Learning Community 347 A: A
+                               Rogue’s Progress: Mapping Kit Marlowe’s Social Networks</title>
+                              at Stonehill College in the Spring 2018 session, working under the
+                              editorship of <name>Kristen Abbott Bennett</name>.</p>
+                        </note>
+                    </person>
+                    <person xml:id="contr_MGOME">
+                        <persName type="contr">
+                            <reg>Mackenzie Gomes</reg>
+                            <forename>Mackenzie</forename>
+                            <surname>Mackenzie</surname>
+                        </persName>
+                        <note>
+                            <p>Student contributor enrolled in <title>Learning Community 347 A: A
+                              Rogue’s Progress: Mapping Kit Marlowe’s Social Networks</title>
+                              at Stonehill College in the Spring 2018 session, working under the
+                              editorship of <name>Kristen Abbott Bennett</name>.</p>
+                        </note>
+                    </person>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+
+</TEI>

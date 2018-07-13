@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://github.com/scottphamlin/kitmarloweproject/blob/master/Marlowe.rnc?raw=true"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Personography Template</title>
+                <!-- Following are sample personography encodings for historical and fictional personae -->
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                  </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Kit Marlowe Mini-Archive</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Text</p>
+            </sourceDesc>
+        </fileDesc>
+ 
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+               <!-- The following encodings are for historical people. For an example of how you might encode a fictional person, keep scrolling! -->
+                <listPerson>
+                    <person xml:id="pers_ABBO25" sex="1">
+                        <persName type="hist">
+                            <!-- regularized names are Surname, Forename when both are available-->
+                            <reg>Abbot, George</reg>
+                            <forename>George</forename>
+                            <surname>Abbot</surname>
+                        </persName>
+                        <birth when-custom="1562"/>
+                        <death when-custom="1633"/>
+                        <note>
+                            <p>Vice-Chancellor of the University of Oxford, 1601-06; Archbishop of Canterbury,
+                                1611-33.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxforddnb.com/index/101000004/">ODNB</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    <person xml:id="pers_HENR3" sex="1">
+                        <persName type="hist">
+                            <!-- Kings, nobility, and others who are named with their title follow this regularization -->
+                            <reg>King Henry III</reg>
+                            <forename>Henry</forename>
+                            <!-- genName is used to indicate Junior or a number after their name. -->
+                            <genName>III</genName>
+                            <!-- addNames are used for alternate spellings, alternate names, honorifics (Sir, Mr., Ms., etc.), and epithets (the Great, the Kind, etc.) -->
+                            <addName type="alt_spelling">Henrie</addName>
+                            <!-- Role names are used for official roles, such as King, a rank of nobility, or military rank. -->
+                            <roleName>King</roleName>
+                        </persName>
+                        <birth when-custom="1207"/>
+                        <death when-custom="1272"/>
+                        <note>
+                            <p>King of England 1216 - 1272.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://doi.org/10.1093/ref:odnb/12950">ODNB</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    <!-- The following encoding is for a literary person. Although you may not have birth and death dates, you may have additional names -->
+                    <person xml:id="pers_JUPE1" sex="1">
+                            <persName type="lit">
+                                <reg>Jupiter</reg>
+                                <addName type="alt_name">Jove</addName>
+                            </persName>
+                            <note>
+                                <p>Jupiter is the Roman god of the sky.</p>
+                                <list type="links">
+                                    <item><ref target="http://www.mythindex.com/roman-mythology/J/Jupiter.html">THEOI</ref></item>
+                                </list>
+                            </note>    
+                    </person>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+    
+</TEI>
